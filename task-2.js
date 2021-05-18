@@ -13,7 +13,7 @@ const toggleUserState = (allUsers, userName) => {
         );
         resolve(updatedUsers)
     })
-
+    
 };
 
 const logger = updatedUsers => console.table(updatedUsers);
